@@ -3,45 +3,55 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package RivanoFerdyansyah2110010411;
+import java.util.ArrayList;
 
 /**
  *
  * @author itrep
  */
 public class Produk {
+    private ArrayList<String> id;
+    private ArrayList<String> produk;
+    private ArrayList<String> harga;
+    private ArrayList<String> satuan;
     
-    private String id,produk, harga, satuan;
+    public Produk (){
     
-    public Produk (){}
-    
-    public void setKdProduk(String id){
-        this.id=id;
+        id = new ArrayList<>();
+        produk = new ArrayList<>();
+        harga = new ArrayList<>();
+        satuan = new ArrayList<>();
+        
     }
     
-    public String getKdProduk(){
+    public void addKdProduk(String value){
+        id.add(value);
+    }
+    
+    public ArrayList<String>getDataKdProduk(){
         return this.id;
     }
     
-    public void setNamaProduk(String produk){
-        this.produk=produk;
+    public void addNamaProduk(String value){
+        produk.add(value);
     }
     
-    public String getNamaProduk(){
+    public ArrayList<String> getDataNamaProduk(){
         return this.produk;
     }
     
-    public void setHarga(String harga){
-        this.harga=harga;
+    public void addHarga(String value){
+        harga.add(value);
     }
     
-    public String getHarga(){
+    public ArrayList<String> getHarga(){
         return this.harga;
     }
-    public void setSatuan(String satuan){
-        this.satuan=satuan;
+    public void addSatuan(String value){
+        satuan.add(value);
     }
     
-    public String getSatuan(){
+    public ArrayList<String> getSatuan(){
         return this.satuan;
     }
     

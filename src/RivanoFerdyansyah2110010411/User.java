@@ -3,45 +3,56 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package RivanoFerdyansyah2110010411;
+import java.util.ArrayList;
 
 /**
  *
  * @author itrep
  */
-public class User extends Jurnal{
+public class User {
     
-    private String id,user, pass, level;
+    private ArrayList<String> id;
+    private ArrayList<String> user;
+    private ArrayList<String> pass;
+    private ArrayList<String> level;
     
-    public User (){}
+    public User (){
+        
+        id = new ArrayList<>();
+        user = new ArrayList<>();
+        pass = new ArrayList<>();
+        level = new ArrayList<>();
     
-    public void setKdUser(String id){
-        this.id=id;
     }
     
-    public String getKdUser(){
+    public void addKdUser(String value){
+        id.add(value);
+    }
+    
+    public ArrayList<String> getKdUser(){
         return this.id;
     }
     
-    public void setUser(String user){
-        this.user=user;
+    public void setUser(String value){
+        user.add(value);
     }
     
-    public String getUser(){
+    public ArrayList<String> getUser(){
         return this.user;
     }
     
-    public void setPass(String pass){
-        this.pass=pass;
+    public void setPass(String value){
+        pass.add(value);
     }
     
-    public String getPass(){
+    public ArrayList<String> getPass(){
         return this.pass;
     }
-    public void setLevel(String level){
-        this.level=level;
+    public void setLevel(String value){
+        level.add(value);
     }
     
-    public String getLevel(){
+    public ArrayList<String> getLevel(){
         return this.level;
     }
     
