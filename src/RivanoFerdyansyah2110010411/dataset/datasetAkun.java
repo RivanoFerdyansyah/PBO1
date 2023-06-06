@@ -2,19 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package RivanoFerdyansyah2110010411;
+package RivanoFerdyansyah2110010411.dataset;
+
 import java.util.ArrayList;
+import RivanoFerdyansyah2110010411.Akun;
 
 /**
  *
  * @author USER
  */
-public class Akun {
-    
+public class datasetAkun {
     private ArrayList<String> id;
     private ArrayList<String> akun;
     
-    public Akun (){
+    public datasetAkun (){
     
         id = new ArrayList<>();
         akun = new ArrayList<>();
@@ -25,14 +26,14 @@ public class Akun {
     public void addKdAkun(String value){
         id.add(value);
     }
-    public ArrayList<String> getKdAkun(){
+    public ArrayList<String> getDataKdAkun(){
         return this.id;
     }
     
     public void addNamaAkun(String value){
         akun.add(value);
     }
-    public ArrayList<String> getNamaAkun(){
+    public ArrayList<String> getDataNamaAkun(){
         return this.akun;
     }
     

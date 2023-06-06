@@ -3,45 +3,54 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package RivanoFerdyansyah2110010411;
+import java.util.ArrayList;
 
 /**
  *
- * @author itrep
+ * @author USER
  */
 public class DetailTransaksi {
     
-    private String nofaktur,kdproduk, jml, total;
+    private ArrayList<String> id;
+    private ArrayList<String> idproduk;
+    private ArrayList<String> jml;
+    private ArrayList<String> total;
     
-    public DetailTransaksi (){}
-    
-    public void setNofaktur(String nofaktur){
-        this.nofaktur=nofaktur;
+    public DetailTransaksi (){
+        id = new ArrayList<>();
+        idproduk = new ArrayList<>();
+        jml = new ArrayList<>();
+        total = new ArrayList<>();
     }
     
-    public String getNoFaktur(){
-        return this.nofaktur;
+    public void addNofaktur(String value){
+        id.add(value);
     }
     
-    public void setKdProduk(String kdproduk){
-        this.kdproduk=kdproduk;
+    public ArrayList<String> getNoFaktur(){
+        return this.id;
     }
     
-    public String getProduk(){
-        return this.kdproduk;
+    public void addKdProduk(String value){
+        idproduk.add(value);
     }
     
-    public void setJml(String jml){
-        this.jml=jml;
+    public ArrayList<String> getProduk(){
+        return this.idproduk;
     }
     
-    public String getJml(){
+    public void addJumlah(String value){
+        jml.add(value);
+    }
+    
+    public ArrayList<String> getJumlah(){
         return this.jml;
     }
-    public void setTotal(String total){
-        this.total=total;
+    public void addTotal(String value){
+        total.add(value);
     }
     
-    public String getTotal(){
+    public ArrayList<String> getTotal(){
         return this.total;
     }
     

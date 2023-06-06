@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author itrep
+ * @author USER
  */
 public class Transaksi {
     

@@ -3,39 +3,47 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package RivanoFerdyansyah2110010411;
+import java.util.ArrayList;
 
 /**
  *
- * @author itrep
+ * @author USER
  */
-public class Jurnal{
+public class Jurnal {
     
-    private String id,tgl, kduser;
+    private ArrayList<String> id;
+    private ArrayList<String> tgl;
+    private ArrayList<String> iduser;
     
-    public Jurnal (){}
+    public Jurnal (){
+        
+        id = new ArrayList<>();
+        tgl = new ArrayList<>();
+        iduser = new ArrayList<>();
+    }
     
-    public void setNoJurnal(String id){
+    public void addNoJurnal(String value){
         this.id=id;
     }
     
-    public String getNoJurnal(){
+    public ArrayList<String> getNoJurnal(){
         return this.id;
     }
     
-    public void setTgl(String tgl){
+    public void addTgl(String value){
         this.tgl=tgl;
     }
     
-    public String getTgl(){
+    public ArrayList<String> getTgl(){
         return this.tgl;
     }
     
-    public void setKdUser(String kduser){
-        this.kduser=kduser;
+    public void addKdUser(String value){
+        iduser.add(value);
     }
     
-    public String getKdUser(){
-        return this.kduser;
+    public ArrayList<String> getKdUser(){
+        return this.iduser;
     }
     
 }

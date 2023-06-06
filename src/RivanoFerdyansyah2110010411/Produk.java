@@ -4,55 +4,58 @@
  */
 package RivanoFerdyansyah2110010411;
 import java.util.ArrayList;
-
 /**
  *
- * @author itrep
+ * @author USER
  */
 public class Produk {
+    
     private ArrayList<String> id;
     private ArrayList<String> produk;
     private ArrayList<String> harga;
     private ArrayList<String> satuan;
     
-    public Produk (){
-    
-        id = new ArrayList<>();
-        produk = new ArrayList<>();
-        harga = new ArrayList<>();
-        satuan = new ArrayList<>();
+    public Produk(){
+        
+        id= new ArrayList<>();
+        produk= new ArrayList<>();
+        harga= new ArrayList<>();
+        satuan= new ArrayList<>();
         
     }
     
     public void addKdProduk(String value){
-        id.add(value);
+        this.id.add(value);
     }
     
-    public ArrayList<String>getDataKdProduk(){
+    public ArrayList<String> getKdProduk(){
         return this.id;
     }
     
     public void addNamaProduk(String value){
-        produk.add(value);
+        this.produk.add(value);
     }
     
-    public ArrayList<String> getDataNamaProduk(){
+    public ArrayList<String> getNamaProduk(){
         return this.produk;
     }
     
     public void addHarga(String value){
-        harga.add(value);
+        this.harga.add(value);
     }
     
     public ArrayList<String> getHarga(){
         return this.harga;
     }
     public void addSatuan(String value){
-        satuan.add(value);
+        this.satuan.add(value);
     }
     
     public ArrayList<String> getSatuan(){
         return this.satuan;
     }
+    
+    
+              
     
 }

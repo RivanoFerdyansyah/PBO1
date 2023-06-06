@@ -5,12 +5,12 @@
 package RivanoFerdyansyah2110010411;
 import java.util.ArrayList;
 
+
 /**
  *
- * @author itrep
+ * @author USER
  */
 public class User {
-    
     private ArrayList<String> id;
     private ArrayList<String> user;
     private ArrayList<String> pass;
