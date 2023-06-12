@@ -2,14 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package RivanoFerdyansyah2110010411;
+package RivanoFerdyansyah2110010411.dataset;
+
 import java.util.ArrayList;
 
 /**
  *
  * @author USER
  */
-public class Transaksi {
+public class datasetTransaksi {
     
     private ArrayList<String> id;
     private ArrayList<String> tgl;
@@ -18,7 +19,7 @@ public class Transaksi {
     private ArrayList<String> kembali;
     
     
-    public Transaksi (){
+    public datasetTransaksi (){
     
         id = new ArrayList<>();
         tgl = new ArrayList<>();
@@ -66,5 +67,6 @@ public class Transaksi {
     public ArrayList<String> getDataKembalian(){
         return this.kembali;
     }
+    
     
 }

@@ -2,20 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package RivanoFerdyansyah2110010411;
+package RivanoFerdyansyah2110010411.dataset;
+
 import java.util.ArrayList;
 
 /**
  *
  * @author USER
  */
-public class Jurnal {
+public class datasetJurnal {
     
     private ArrayList<String> id;
     private ArrayList<String> tgl;
     private ArrayList<String> iduser;
     
-    public Jurnal (){
+    public datasetJurnal (){
         
         id = new ArrayList<>();
         tgl = new ArrayList<>();

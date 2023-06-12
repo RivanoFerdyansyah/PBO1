@@ -5,7 +5,6 @@
 package RivanoFerdyansyah2110010411.dataset;
 
 import java.util.ArrayList;
-import RivanoFerdyansyah2110010411.Akun;
 
 /**
  *

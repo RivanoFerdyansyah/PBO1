@@ -3,8 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package RivanoFerdyansyah2110010411;
-import java.util.ArrayList;
-import RivanoFerdyansyah2110010411.dataset.datasetAkun;
 import RivanoFerdyansyah2110010411.form.frameUtama;
 
 /**
