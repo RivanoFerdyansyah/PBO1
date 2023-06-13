@@ -157,7 +157,11 @@ public class frameUtama extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+<<<<<<< HEAD
+        new frameJurnal().setVisible(true);
+=======
         new frameJurnal1().setVisible(true);
+>>>>>>> 3a907d80fb7e5c848a47dbc4200f2de2376bd3dc
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
